@@ -1,0 +1,28 @@
+{
+  "name": "databus",
+  "version": "1.0.0",
+  "description": "A simple data bus pattern implementation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd tests && mocha ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iiyo/databus.git"
+  },
+  "keywords": [
+    "databus",
+    "data",
+    "bus",
+    "pattern",
+    "event",
+    "bus",
+    "events"
+  ],
+  "author": "J. Steinbeck",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/iiyo/databus/issues"
+  },
+  "homepage": "https://github.com/iiyo/databus#readme"
+}
