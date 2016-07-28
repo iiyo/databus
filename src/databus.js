@@ -6,7 +6,7 @@
         using().define("databus", DataBusModule);
     }
     else if (typeof window !== "undefined") {
-        window.databus = DataBusModule();
+        window.DataBus = DataBusModule();
     }
     else {
         module.exports = DataBusModule();
