@@ -1,6 +1,6 @@
 {
   "name": "databus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple data bus pattern implementation.",
   "main": "index.js",
   "scripts": {

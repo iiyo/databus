@@ -2,14 +2,14 @@
 
 (function DataBusBootstrap () {
     
-    if (typeof using === "function") {
+    if (typeof require === "function") {
+        module.exports = DataBusModule();
+    }
+    else if (typeof using === "function") {
         using().define("databus", DataBusModule);
     }
-    else if (typeof window !== "undefined") {
-        window.DataBus = DataBusModule();
-    }
     else {
-        module.exports = DataBusModule();
+        window.DataBus = DataBusModule();
     }
     
     function DataBusModule () {
